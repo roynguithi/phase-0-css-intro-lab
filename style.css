@@ -1,20 +1,17 @@
 /* Tag selector to select the 'body' element */
 body {
-  /* Your code here! */
+  background-color: #00b3e6; /* Light blue background for the whole document */
+  font-family: "Helvetica Neue", sans-serif; /* Applies Helvetica Neue font to the entire document */
 }
-
-/* Tag selector to select all 'div' elements. We only have one 'div' in our HTML */
 div {
-  /* Your code here! */
+  width: 700px; /* Sets width of <div> elements */
+  margin: auto; /* Centers the <div> elements horizontally */
+  background-color: white; /* Sets background color of <div> elements to white */
+  padding: 30px; /* Adds padding around the content inside <div> elements */
 }
-
-/* ID selector to select the element with id 'main-header' */
 #main-header {
-  /* Your code here! */
-  color: red;
+  font-size: 22px; /* Sets font size for the element with the id 'main-header' */
 }
-
-/* Class selector to select elements containing the class 'perspective-questions' */
 .perspective-questions {
-  /* Your code here! */
+  font-style: italic; /* Applies italic font style to elements with the class 'perspective-questions' */
 }
